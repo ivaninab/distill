@@ -6,15 +6,23 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-16T08:46:44+02:00"
+      "last_modified": "2021-06-16T11:18:06+02:00"
+    },
+    {
+      "path": "analyse.html",
+      "title": "My Website",
+      "description": "Herzlich Willkommen zu Netflix Webseite!\n",
+      "author": [],
+      "contents": "\r\n\r\n# A tibble: 17,071 x 13\r\n   show_id type   title director cast  country date_added release_year\r\n   <chr>   <chr>  <chr> <chr>    <chr> <chr>   <chr>             <dbl>\r\n 1 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 2 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 3 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 4 s2      Movie  7:19  Jorge M~ Demi~ Mexico  December ~         2016\r\n 5 s2      Movie  7:19  Jorge M~ Demi~ Mexico  December ~         2016\r\n 6 s3      Movie  23:59 Gilbert~ Tedd~ Singap~ December ~         2011\r\n 7 s3      Movie  23:59 Gilbert~ Tedd~ Singap~ December ~         2011\r\n 8 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009\r\n 9 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009\r\n10 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009\r\n# ... with 17,061 more rows, and 5 more variables: rating <chr>,\r\n#   duration <int>, duration_units <chr>, listed_in <chr>,\r\n#   description <chr>\r\n# A tibble: 56,673 x 13\r\n   show_id type   title director cast  country date_added release_year\r\n   <chr>   <chr>  <chr> <chr>    <chr> <chr>   <chr>             <dbl>\r\n 1 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 2 s1      TV Sh~ 3%    <NA>     Bian~ Brazil  August 14~         2020\r\n 3 s1      TV Sh~ 3%    <NA>     Mich~ Brazil  August 14~         2020\r\n 4 s1      TV Sh~ 3%    <NA>     Rodo~ Brazil  August 14~         2020\r\n 5 s1      TV Sh~ 3%    <NA>     Vane~ Brazil  August 14~         2020\r\n 6 s1      TV Sh~ 3%    <NA>     Rafa~ Brazil  August 14~         2020\r\n 7 s1      TV Sh~ 3%    <NA>     Vivi~ Brazil  August 14~         2020\r\n 8 s1      TV Sh~ 3%    <NA>     Mel ~ Brazil  August 14~         2020\r\n 9 s1      TV Sh~ 3%    <NA>     Serg~ Brazil  August 14~         2020\r\n10 s1      TV Sh~ 3%    <NA>     Zezé~ Brazil  August 14~         2020\r\n# ... with 56,663 more rows, and 5 more variables: rating <chr>,\r\n#   duration <int>, duration_units <chr>, listed_in <chr>,\r\n#   description <chr>\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-16T11:18:09+02:00"
     },
     {
       "path": "index.html",
       "title": "My Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "description": "Herzlich Willkommen zur Netflix Webseite!\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-16T08:46:45+02:00"
+      "contents": "\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-16T11:18:10+02:00"
     }
   ],
   "collections": []

@@ -88,27 +88,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>My Website</title>
 
-  <meta property="description" itemprop="description" content="Herzlich Willkommen zur Netflix Webseite!"/>
+  <meta property="description" itemprop="description" content="Herzlich Willkommen zu Netflix Webseite!"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="My Website"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Herzlich Willkommen zur Netflix Webseite!"/>
+  <meta property="og:description" content="Herzlich Willkommen zu Netflix Webseite!"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="My Website"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="My Website"/>
-  <meta property="twitter:description" content="Herzlich Willkommen zur Netflix Webseite!"/>
+  <meta property="twitter:description" content="Herzlich Willkommen zu Netflix Webseite!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["My Website"]},{"type":"character","attributes":{},"value":["Herzlich Willkommen zur Netflix Webseite!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["My Website"]},{"type":"character","attributes":{},"value":["Herzlich Willkommen zu Netflix Webseite!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2053,7 +2053,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"My Website","description":"Herzlich Willkommen zur Netflix Webseite!","authors":[]}
+{"title":"My Website","description":"Herzlich Willkommen zu Netflix Webseite!","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2079,13 +2079,47 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>My Website</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Herzlich Willkommen zur Netflix Webseite!</p></p>
+<p><p>Herzlich Willkommen zu Netflix Webseite!</p></p>
 </div>
 
 
 <div class="d-article">
-<p><img src="C:/Users/Ivanina/Desktop/netflix.jpg" /></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code># A tibble: 17,071 x 13
+   show_id type   title director cast  country date_added release_year
+   &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;             &lt;dbl&gt;
+ 1 s1      TV Sh~ 3%    &lt;NA&gt;     João~ Brazil  August 14~         2020
+ 2 s1      TV Sh~ 3%    &lt;NA&gt;     João~ Brazil  August 14~         2020
+ 3 s1      TV Sh~ 3%    &lt;NA&gt;     João~ Brazil  August 14~         2020
+ 4 s2      Movie  7:19  Jorge M~ Demi~ Mexico  December ~         2016
+ 5 s2      Movie  7:19  Jorge M~ Demi~ Mexico  December ~         2016
+ 6 s3      Movie  23:59 Gilbert~ Tedd~ Singap~ December ~         2011
+ 7 s3      Movie  23:59 Gilbert~ Tedd~ Singap~ December ~         2011
+ 8 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009
+ 9 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009
+10 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009
+# ... with 17,061 more rows, and 5 more variables: rating &lt;chr&gt;,
+#   duration &lt;int&gt;, duration_units &lt;chr&gt;, listed_in &lt;chr&gt;,
+#   description &lt;chr&gt;</code></pre>
+<pre><code># A tibble: 56,673 x 13
+   show_id type   title director cast  country date_added release_year
+   &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;             &lt;dbl&gt;
+ 1 s1      TV Sh~ 3%    &lt;NA&gt;     João~ Brazil  August 14~         2020
+ 2 s1      TV Sh~ 3%    &lt;NA&gt;     Bian~ Brazil  August 14~         2020
+ 3 s1      TV Sh~ 3%    &lt;NA&gt;     Mich~ Brazil  August 14~         2020
+ 4 s1      TV Sh~ 3%    &lt;NA&gt;     Rodo~ Brazil  August 14~         2020
+ 5 s1      TV Sh~ 3%    &lt;NA&gt;     Vane~ Brazil  August 14~         2020
+ 6 s1      TV Sh~ 3%    &lt;NA&gt;     Rafa~ Brazil  August 14~         2020
+ 7 s1      TV Sh~ 3%    &lt;NA&gt;     Vivi~ Brazil  August 14~         2020
+ 8 s1      TV Sh~ 3%    &lt;NA&gt;     Mel ~ Brazil  August 14~         2020
+ 9 s1      TV Sh~ 3%    &lt;NA&gt;     Serg~ Brazil  August 14~         2020
+10 s1      TV Sh~ 3%    &lt;NA&gt;     Zezé~ Brazil  August 14~         2020
+# ... with 56,663 more rows, and 5 more variables: rating &lt;chr&gt;,
+#   duration &lt;int&gt;, duration_units &lt;chr&gt;, listed_in &lt;chr&gt;,
+#   description &lt;chr&gt;</code></pre>
+<p><img src="analyse_files/figure-html5/unnamed-chunk-1-1.png" width="624" /></p>
+</div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

@@ -1,7 +1,7 @@
 ---
 title: "My Website"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Herzlich Willkommen zur Netflix Webseite!
 site: distill::distill_website
 ---
 
@@ -13,3 +13,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+![](C:/Users/Ivanina/Desktop/netflix.jpg)
