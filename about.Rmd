@@ -1,10 +1,33 @@
 ---
-title: "About this site"
+title: "Über mich"
 description: |
-  Some additional details about the website
+  Ein bisschen mehr Informationen über mich :)
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
+#### Persönliche Daten
+ Name: Ivanina Krumova Buchkova
+ 
+ 
+ 
+ Geburtsort: Bulgarien
+ 
+ 
+ 
+ Wohnort: Deutschland
+ 
+ 
+ 
+ Hobby: Netflix Filme und Serien gucken, Kochen
+ 
+#### Studium
+ Seit 2017: RWTH Aachen
+ 
+#### Erfahrung
+ Seit 2019: Studentische Hilfskraft im Bereich Marketing am ITC der RWTH
+ 
+![](C:/Users/Ivanina/Documents/uni/distill/logo.png)

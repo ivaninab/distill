@@ -1,0 +1,31 @@
+---
+title: "Analyse nach Land"
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+# Top 10 Länder, die Flme für Netflix produzueren
+
+
+```{r}
+library(tidyverse)
+
+top_ten<- netflix_titles%>% 
+  filter(country != "")%>%
+  group_by(country)%>%
+  summarise(Total=n())%>%
+  arrange(desc(Total)) %>% 
+  head(10)
+
+ ggplot(top_ten, aes(x = Total, y = reorder(country, Total))) +
+  geom_col(color = "red", fill ="#E50914", alpha = 2.0, width = 0.5) +
+  labs(x = "Anzahl Filme",y="Land")
+```
+

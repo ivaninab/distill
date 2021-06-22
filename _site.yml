@@ -1,14 +1,36 @@
+---
 name: "distill"
-title: "My Website"
+title: "Ivaninas Netflix Analyse"
 description: |
   My Website
 output_dir: "_site"
+
+
 navbar:
-  right:
+   logo:
+    image: C:/Users/Ivanina/Documents/uni/distill/logo.png
+    href: https://www.rstudio.com
+     
+   right:
     - text: "Home"
       href: index.html
+    
     - text: "Netflix Analyse"
-      href:  analyse.html
+      href: analyse.html
+      menu:
+        - text: "Analyse nach Content"
+          href: analyse.html
+        - text: "Analyse nach Land"
+          href: countries.html
+        - text: "---"
     - text: "About"
       href: about.html
+      
+    - icon:  fa-film
+      href:  https://www.netflix.com/de/
+      
+
+      
+theme: "ivanina.css"
+
 output: distill::distill_article

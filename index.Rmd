@@ -1,8 +1,10 @@
 ---
-title: "My Website"
+title: "Ivaninas Netflix Analyse"
 description: |
-  Herzlich Willkommen zur Netflix Webseite!
+  Herzlich Willkommen auf Ivaninas Webseite zur Analyse von Netflix Filmen und Serien!
 site: distill::distill_website
+theme: ivanina_theme.css
+
 ---
 
 ```{r setup, include=FALSE}
@@ -12,5 +14,6 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/website.html
 
 ```
+![](C:/Users/Ivanina/Documents/uni/distill/netflix.jpg)  
 
-![](C:/Users/Ivanina/Desktop/netflix.jpg)
+

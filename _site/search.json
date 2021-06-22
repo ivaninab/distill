@@ -2,27 +2,33 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "Über mich",
+      "description": "Ein bisschen mehr Informationen über mich :)",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-16T11:18:06+02:00"
+      "contents": "\r\nPersönliche Daten\r\nName: Ivanina Krumova Buchkova\r\nGeburtsort: Bulgarien\r\nWohnort: Deutschland\r\nHobby: Netflix Filme und Serien gucken, Kochen\r\nStudium\r\nSeit 2017: RWTH Aachen\r\nErfahrung\r\nSeit 2019: Studentische Hilfskraft im Bereich Marketing am ITC der RWTH\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-22T11:26:18+02:00"
     },
     {
       "path": "analyse.html",
-      "title": "My Website",
-      "description": "Herzlich Willkommen zu Netflix Webseite!\n",
+      "title": "Analyse nach Content",
       "author": [],
-      "contents": "\r\n\r\n# A tibble: 17,071 x 13\r\n   show_id type   title director cast  country date_added release_year\r\n   <chr>   <chr>  <chr> <chr>    <chr> <chr>   <chr>             <dbl>\r\n 1 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 2 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 3 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 4 s2      Movie  7:19  Jorge M~ Demi~ Mexico  December ~         2016\r\n 5 s2      Movie  7:19  Jorge M~ Demi~ Mexico  December ~         2016\r\n 6 s3      Movie  23:59 Gilbert~ Tedd~ Singap~ December ~         2011\r\n 7 s3      Movie  23:59 Gilbert~ Tedd~ Singap~ December ~         2011\r\n 8 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009\r\n 9 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009\r\n10 s4      Movie  9     Shane A~ Elij~ United~ November ~         2009\r\n# ... with 17,061 more rows, and 5 more variables: rating <chr>,\r\n#   duration <int>, duration_units <chr>, listed_in <chr>,\r\n#   description <chr>\r\n# A tibble: 56,673 x 13\r\n   show_id type   title director cast  country date_added release_year\r\n   <chr>   <chr>  <chr> <chr>    <chr> <chr>   <chr>             <dbl>\r\n 1 s1      TV Sh~ 3%    <NA>     João~ Brazil  August 14~         2020\r\n 2 s1      TV Sh~ 3%    <NA>     Bian~ Brazil  August 14~         2020\r\n 3 s1      TV Sh~ 3%    <NA>     Mich~ Brazil  August 14~         2020\r\n 4 s1      TV Sh~ 3%    <NA>     Rodo~ Brazil  August 14~         2020\r\n 5 s1      TV Sh~ 3%    <NA>     Vane~ Brazil  August 14~         2020\r\n 6 s1      TV Sh~ 3%    <NA>     Rafa~ Brazil  August 14~         2020\r\n 7 s1      TV Sh~ 3%    <NA>     Vivi~ Brazil  August 14~         2020\r\n 8 s1      TV Sh~ 3%    <NA>     Mel ~ Brazil  August 14~         2020\r\n 9 s1      TV Sh~ 3%    <NA>     Serg~ Brazil  August 14~         2020\r\n10 s1      TV Sh~ 3%    <NA>     Zezé~ Brazil  August 14~         2020\r\n# ... with 56,663 more rows, and 5 more variables: rating <chr>,\r\n#   duration <int>, duration_units <chr>, listed_in <chr>,\r\n#   description <chr>\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-16T11:18:09+02:00"
+      "contents": "\r\n\r\n\r\nlibrary(ggplot2)\r\nggplot(data = netflix_titles, aes(x=type, fill=type))+ \r\n  geom_bar(color=\"red\", size=0.4, fill=\"dark red\")+\r\n  labs(title =\"Netflix content - Movies vs. TV Shows\",x= \"Content\",     y=\"Amount\")\r\n\r\n\r\n\r\n\r\nWie wir oben sehen, gibt es mehr als 2-mal mehr Filme als TV Shows auf Netflix.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-22T11:26:21+02:00"
+    },
+    {
+      "path": "countries.html",
+      "title": "Analyse nach Land",
+      "author": [],
+      "contents": "\r\nTop 10 Länder, die Flme für Netflix produzueren\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-22T11:26:23+02:00"
     },
     {
       "path": "index.html",
-      "title": "My Website",
-      "description": "Herzlich Willkommen zur Netflix Webseite!\n",
+      "title": "Ivaninas Netflix Analyse",
+      "description": "Herzlich Willkommen auf Ivaninas Webseite zur Analyse von Netflix Filmen und Serien!\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-16T11:18:10+02:00"
+      "last_modified": "2021-06-22T11:26:23+02:00"
     }
   ],
   "collections": []
